@@ -34,7 +34,7 @@ Once you have your images in place in the `originals` folder, you can run the fo
 ## Feeling Dangerous?
 You can change the settings within the gulpfile.js file. You can change the quality and optimization level for JPEG and PNG. The current settings do have great results but feel free to change the settings. 
 
-Note if after you change the settings and you don't notice a change or the process didn't optimze the images, run the following command: `gulp clear` then run `gulp-images` to reprocess the images. 
+Note if after you change the settings and you don't notice a change or the process didn't optimze the images, run the following command: `gulp clearCache` then run `gulp-images` to reprocess the images. 
 
 ~~~ js
 	imagemin.mozjpeg({quality: 75, progressive: true}),
