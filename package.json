@@ -1,0 +1,19 @@
+{
+  "name": "imgcompression",
+  "version": "1.0.0",
+  "description": "Image compression",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
