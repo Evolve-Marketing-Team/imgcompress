@@ -1,3 +1,4 @@
 node_modules
 originals/**
 optimized/**
+.DS_Store
