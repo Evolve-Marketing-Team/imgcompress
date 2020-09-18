@@ -8,8 +8,10 @@ A command line utility using Node.JS and Gulp to bulk minify images *(JPEG, GIF,
 - Once installation is complete, your command shell will open asking to install Python and necessary tools. Press any key to continue install process. *Note this step may take a few minutes. You can continue with other work while this installs*
 
 ## Step 2: Install Gulp Cli
-Open Powershell. If you're not sure how to open Powershell, just click on Windows button and search for Powershell and run the app.
+Open Powershell as an Adminstrator. If you're not sure how to open Powershell, just click on Windows button and/or search for Powershell select and run as Administrator.
+- Enter the following command to enable command line scripts: `Set-ExecutionPolicy Unrestricted`. Once prompted, type *YES* to allow unrestricted process scripts. 
 - Install Gulp Cli by entering following command: `npm -g install gulp-cli`
+- After this is complete, the rest of the following command line commands can be run in regular Powershell and not as Administrator.
 
 
 ## Step 3: Setup Image Compression
