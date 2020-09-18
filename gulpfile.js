@@ -4,29 +4,11 @@
  * Image optimization
  *
  */
-
 const gulp = require( 'gulp' );
 const imagemin = require( 'gulp-imagemin' );
 const cache = require ( 'gulp-cache' );
 const notify = require( 'gulp-notify' );
 
-/**
- * Task: `images`.
- *
- * Minifies PNG, JPEG, GIF and SVG images.
- *
- * This task does the following:
- *     1. Gets the source of images raw folder
- *     2. Minifies PNG, JPEG, GIF and SVG images
- *     3. Generates and saves the optimized images
- *
- * This task will run only once, if you want to run it
- * again, do it with the command `gulp images`.
- *
- * Read the following to change these options.
- * @link https://github.com/sindresorhus/gulp-imagemin
- * 
- */
 
 const imgSrc = './originals/**/*';
 const imgDst = './optimized/';
