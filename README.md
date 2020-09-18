@@ -7,18 +7,22 @@ A command line utility using Node.JS and Gulp to bulk minify images *(JPEG, GIF,
 - You'll be prompted to Automatically install the necessary tools. Ensure this option is checked.
 - Once installation is complete, your command shell will open asking to install Python and necessary tools. Press any key to continue install process. *Note this step may take a few minutes. You can continue with other work while this installs*
 
+## Step 2: Install Gulp Cli
+Open Powershell. If you're not sure how to open Powershell, just click on Windows button and search for Powershell and run the app.
+- Install Gulp Cli by entering following command: `npm -g install gulp-cli`
 
-## Step 2: Setup Image Compression
+
+## Step 3: Setup Image Compression
 After node installs, you can download the following zip file and download and extract it to your desired location on your machine. This can be done on your Desktop, Documents, or any custom folder within your user directory.
 
 - [Download zip file](https://github.com/alexf-evolve/imgcompress/archive/master.zip) from Evolve Github repo.
 - When extracting, Windows will ask you where to extract the files. Delete the `imgcompress-master` portion from the path. This will just duplicte the file path of imgcompress-master and it's not needed. 
-- After extraction, open Powershell. If you're not sure how to open Powershell, just click on Windows button and search for Powershell and run the app.
+- After extraction, open Powershell.
 - You'll need to switch to the directory of where you extracted the files. If you extracted the files onto your desktop, you'll run the following command. `cd ~/desktop/imgcompress-master`. You can copy and paste the command into Powershell and hit Enter key.
 - Run the following command once you're in the imgcompress-master directory: `npm install`. This will install all the node_modules required.
 - After installatin is complete, you'll most likely receive a message about vulnerabilities that you can disregard. 
 
-## Step 3: Run your batch optimization
+## Step 4: Run your batch optimization
 After the install and setup is complete, you can now run your batch optimization. Optimization works by looking for images in the `originals` folder and outputs the optimized images in the `optimized` folder. 
 
 Note that if you create sub folders, the optimized images will retain the folder structure. For example, if you create a folder in originals called *website-content*, the folder will be created in the `optimized` folder along with the images for better organization.
