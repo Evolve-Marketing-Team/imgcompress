@@ -19,7 +19,7 @@ After node installs, you can download the following zip file and download and ex
 - After installatin is complete, you'll most likely receive a message about vulnerabilities that you can disregard. 
 
 ## Step 3: Run your batch optimization
-After the install and setup is complete, you can now run your batch optimization. Optimization works by looking for images in the `originals` folder for images and outputs the optimized images in the `optimized` folder. 
+After the install and setup is complete, you can now run your batch optimization. Optimization works by looking for images in the `originals` folder and outputs the optimized images in the `optimized` folder. 
 
 Note that if you create sub folders, the optimized images will retain the folder structure. For example, if you create a folder in originals called *website-content*, the folder will be created in the `optimized` folder along with the images for better organization.
 
