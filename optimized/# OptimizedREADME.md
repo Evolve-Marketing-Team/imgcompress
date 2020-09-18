@@ -1,0 +1,2 @@
+# Optimized
+If you find that the desired compression wasn't enough, you may have to reduce the file size in Photoshop first my stripping out metadata and reducing resolution if the image was set for print.

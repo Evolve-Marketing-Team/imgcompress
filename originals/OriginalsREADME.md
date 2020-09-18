@@ -1,0 +1,2 @@
+# Originals
+When adding images to the originals folder to compress, you can create folders within this directory. When images compress and output to the optimized folder, they'll retain the folder structure from Originals folder to help keep files organized. 
