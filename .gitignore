@@ -1,6 +1,2 @@
 node_modules
-originals/**
-optimized/**
-!originals/*.md/.gitkeep
-!optimized/*.md/.gitkeep
 **/.DS_Store
